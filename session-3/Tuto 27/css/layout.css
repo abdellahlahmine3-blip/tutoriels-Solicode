@@ -1,0 +1,74 @@
+.carte-article {
+    width: 300px; 
+    border: 1px solid #e5e7eb;
+    margin-bottom: 24px;
+
+    /* Nouvelles règles : */
+    border-radius: 16px;
+    overflow: hidden;
+}
+.carte-contenu {
+    padding: 20px;
+}
+/* css/components.css */
+.carte-contenu h3 {
+    margin: 0; /* Enlève la marge par défaut du titre */
+}
+
+.carte-contenu p {
+    margin: 12px 0; /* 12px en haut et en bas, 0 à gauche et à droite */
+}
+.carte-image {
+    display: block; /* Retire le petit espace parasite sous les liens */
+}
+
+.carte-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.etiquette-categorie {
+    display: inline-block;
+    margin: 16px 16px 0;
+    padding: 6px 10px;
+    border-radius: 99px;
+}
+
+.carte-meta {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid #f3f4f6;
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+.conteneur-articles {
+    max-width: 1200px;
+    /* La marge "auto" à gauche et à droite centre l'élément */
+    margin: 0 auto; 
+}
+.section-articles{
+padding: 80px 24px;
+}
+.banniere-accueil {
+    padding: 96px 24px;
+    text-align: center;
+    /* Petit effet de fond (grille) pour le style */
+    background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+.banniere-accueil h1 {
+    max-width: 850px;
+    margin: 0 auto; /* Centre le titre de 850px au milieu de la page */
+}
+
+
+.banniere-accueil p {
+    max-width: 680px;
+    margin: 24px auto 0; /* 24px en haut, Auto à gauche/droite, 0 en bas */
+}

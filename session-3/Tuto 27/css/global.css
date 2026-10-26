@@ -1,0 +1,35 @@
+
+.carte-article{
+background: white;
+}
+
+.etiquette-categorie{
+    font-size: 11px;
+    font-weight: 700;
+    background: #f0f6ff;
+    color: #1c5bba;
+}
+.carte-meta{
+    font-size: 12px;
+    color: #9ca3af;
+}
+body{
+    background: #f9fafb;
+    font-family: Arial, sans-serif;
+    color:#1f2937;
+}
+.banniere-acceuil{
+    background: #ffffff;
+}
+.banniere-acceuil img{
+border: none;
+width: 10px;
+}
+.banniere-accueil h1{
+    font-size: 56px;
+    color: #0a2042;
+}
+.banniere-acceuil p{
+    font-size: 17px;
+    color: #6b7280;
+}
