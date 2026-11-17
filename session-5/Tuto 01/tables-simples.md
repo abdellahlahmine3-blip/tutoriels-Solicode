@@ -1,31 +1,31 @@
 <table>
 <tr>
-<td width="50%" valign="top">VILLE
+<td width="50%" valign="top">VILLE<br>
 id_ville (PK)
 
 nom_ville
 </td>
-<td width="50%" valign="top">AUTEUR
-id_auteur (PK)
+<td width="50%" valign="top">AUTEUR<br>
+id_auteur (PK)<br>
 
-nom_auteur
-prenom_auteur
+nom_auteur<br>
+prenom_auteur<br>
 email_auteur
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">CATEGORIE
-id_categorie (PK)
+<td width="50%" valign="top">CATEGORIE<br>
+id_categorie (PK)<br>
 
 nom_categorie
 </td>
-<td width="50%" valign="top">ARTICLE
-id_article (PK)
+<td width="50%" valign="top">ARTICLE<br>
+id_article (PK)<br>
 
-titre_article
-contenu_article
-date_publication
-statut_article
+titre_article<br>
+contenu_article<br>
+date_publication<br>
+statut_article<br>
 image_article
 </td>
 </tr>
